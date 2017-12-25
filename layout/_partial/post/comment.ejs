@@ -10,3 +10,22 @@
   </div>
 </section>
 <% } %>
+<% if ((config.changyan_shortname || theme.changyan_shortname) && page.comments){ %>
+    <section id="comments" class="comment">
+        <div id="SOHUCS" sid="<%= page.title %>"></div>
+            <script>
+                (function(){
+                     var appid = 'cyrUQqxn1',
+                     conf = 'prod_3dc89e4df697a1435fe2a977586c8a99';
+                     var doc = document,
+                     s = doc.createElement('script'),
+                     h = doc.getElementsByTagName('head')[0] || doc.head || doc.documentElement;
+                     s.type = 'text/javascript';
+                     s.charset = 'utf-8';
+                     s.src =  'http://assets.changyan.sohu.com/upload/changyan.js?conf='+ conf +'&appid=' + appid;
+                     h.insertBefore(s,h.firstChild);
+                     window.SCS_NO_IFRAME = true;
+                 })();
+            </script>
+    </section>
+<% } %>

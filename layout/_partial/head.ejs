@@ -25,7 +25,11 @@
     <meta name="author" content="<%= config.author %>">
     <% } %>
 
-    <% if (page.keywords){ %><meta name="keywords" content="<%= page.keywords %>"><% } %>
+    <% if (page.keywords){ %>
+    <meta name="keywords" content="<%= page.keywords %>,<%= config.keywords %>">
+    <% } else if (config.keywords){ %>
+    <meta name="keywords" content="<%= config.keywords %>">
+    <%} %>
     <%- open_graph({twitter_id: theme.author.twitter, google_plus: theme.author.google_plus}) %>
 
     <% if (theme.rss){ %>
