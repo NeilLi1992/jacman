@@ -11,14 +11,21 @@ menu:
 ## ---
 
 #### Widgets
+<<<<<<< HEAD
 widgets:
+=======
+widgets: 
+- github-card
+>>>>>>> master
 - category
 - tag
 - links
 - douban
 - weibo
 - rss
-## provide seven widgets:category,tag,rss,archive,tagcloud,links,weibo,douban
+- weibo
+  ## provide eight widgets:github-card,category,tag,rss,archive,tagcloud,links,weibo
+
 
 
 #### RSS
@@ -54,6 +61,7 @@ creative_commons: none
 
 #### Author information
 author:
+<<<<<<< HEAD
   intro_line1:  "Hello, I'm Yong Li, a MSc student in Oxford Uni."    ## your introduction on the bottom of the page
   intro_line2:  "Welcome to my blog, hope it does help to you!."  ## the 2nd line
   weibo: 2327892814     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
@@ -62,6 +70,16 @@ author:
   douban: 44886038    ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
   zhihu: li-yong-88-55     ## e.g. jark  for http://www.zhihu.com/people/jark
   email: yong.li1992@foxmail.com     ## e.g. imjark@gmail.com
+=======
+  intro_line1:  "Hello ,I'm Larry Page in Google."    ## your introduction on the bottom of the page
+  intro_line2:  "This is my blog,believe it or not."  ## the 2nd line
+  weibo: 2176287895     ## e.g. wuchong1014 or 2176287895 for http://weibo.com/2176287895
+  weibo_verifier: b3593ceb    ## e.g. b3593ceb Your weibo-show widget verifier ,if you use weibo-show it is needed.
+  tsina:      ## e.g. 2176287895  Your weibo ID,It will be used in share button.
+  douban:     ## e.g. wuchong1014 or your id for https://www.douban.com/people/wuchong1014
+  zhihu:      ## e.g. jark  for http://www.zhihu.com/people/jark
+  email:      ## e.g. imjark@gmail.com
+>>>>>>> master
   twitter:    ## e.g. jarkwu for https://twitter.com/jarkwu
   github:  NeilLi1992   ## e.g. wuchong for https://github.com/wuchong
   facebook: 100006707769873  ## e.g. imjark for https://facebook.com/imjark
@@ -83,11 +101,20 @@ links:
    kai's blog: http://eventfulkay.com 小虾米的博客
 
 #### Comment
+<<<<<<< HEAD
 # duoshuo_shortname: yongli1992    ## e.g. wuchong   your duoshuo short name.
 # changyan_shortname: yongli1992
 # changyan_appid: cyrUQqnx1
 # changyan_conf: da090ca9a3c83702b28b53885726450a
 disqus_shortname: yongli1992     ## e.g. wuchong   your disqus short name.
+=======
+duoshuo_shortname:    ## e.g. wuchong   your duoshuo short name.
+disqus_shortname:     ## e.g. wuchong   your disqus short name.
+gentie_key:           ## your 163 gentie key, see https://gentie.163.com/
+changyan_appid:       ## changyan app id, see http://changyan.kuaizhan.com/
+changyan_appkey:      ## changyan app key, see http://changyan.kuaizhan.com/
+
+>>>>>>> master
 
 #### Share button
 jiathis:
@@ -103,8 +130,8 @@ google_analytics:
 ## You MUST upgrade to Universal Analytics first!
 ## https://developers.google.com/analytics/devguides/collection/upgrade/?hl=zh_CN
 baidu_tongji:
-  enable: false
-  sitecode:  ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
+  enable: true
+  sitecode: e6d1f421bbc9962127a50488f9ed37d1 ## e.g. e6d1f421bbc9962127a50488f9ed37d1 your baidu tongji site code
 cnzz_tongji:
   enable: false
   siteid:    ## e.g. 1253575964 your cnzz tongji site id

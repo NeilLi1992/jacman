@@ -10,6 +10,7 @@
   </div>
 </section>
 <% } %>
+<<<<<<< HEAD
 <% if ((config.changyan_shortname || theme.changyan_shortname) && page.comments){ %>
     <section id="comments" class="comment">
         <div id="SOHUCS" sid="<%= page.title %>"></div>
@@ -29,3 +30,11 @@
             </script>
     </section>
 <% } %>
+=======
+<% if (theme.gentie_key && page.comments){ %>
+<div id="cloud-tie-wrapper" class="cloud-tie-wrapper"></div>
+<% } %>
+<% if (theme.changyan_appid && page.comments){ %>
+<div id="SOHUCS" style="width: 95%;"></div>
+<% } %>
+>>>>>>> master
